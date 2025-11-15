@@ -422,7 +422,7 @@ footer a {
     color: #E62E00;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .masonry {
         column-count: 2;
     }
@@ -432,3 +432,15 @@ footer a {
     }
 
 }
+
+@media (max-width: 1000px) {
+    .masonry {
+        column-count: 3;
+    }
+
+    .gallery-section {
+        padding: 20px 40px;
+    }
+
+}
+
